@@ -1,5 +1,5 @@
 
-int tSize = 100;//tile size
+int tSize = 50;//tile size
 int w, h;
 boolean[][] fullData;//full waving data
 int type = 0;
@@ -9,8 +9,8 @@ boolean showBack = true;
 
 
 void setup() {
-  //size(500, 500);
-  fullScreen();
+  size(1000, 1000);
+  //fullScreen();
   colorMode(HSB, 360, 100, 100, 100);
   w = width/tSize+1;
   h = height/tSize+1;
